@@ -1,24 +1,23 @@
 @import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
 
+/* header */
 header {
   width: 100%;
   font-family: "Ubuntu", sans-serif;
   margin: 0 auto;
   /* background-color: red; */
-  
 }
-header nav{
-    display: flex;
-    justify-content: space-between;
-    padding: 53px 99px;
-    align-items: center;
+header nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 53px 99px;
+  align-items: center;
 }
 
 .nav_div_1 h2 {
   color: #27187f;
   font-size: 35px;
   font-weight: 800;
-
 }
 
 .nav_div_2 {
@@ -47,4 +46,49 @@ header nav{
   border-radius: 10px;
   display: flex;
   justify-content: end;
+}
+
+/* section */
+
+section {
+  width: 100%;
+  background: #ddeaf8;
+  padding: 94px 98px 135px 98px;
+}
+
+section h1 {
+  font-family: "Ubuntu", sans-serif;
+  margin-bottom: 68px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  color: #27187f;
+}
+
+.section_div {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  row-gap: 51px;
+}
+
+.section_div div {
+  padding: 33px 0px 33px 80px;
+  width: 30%;
+  /* height: 333px; */
+
+  background: #ffffff;
+  border-radius: 10px;
+}
+
+.card p {
+  margin-top: 33px;
+  width: 340px;
+  font-family: "Ubuntu", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+
+  color: #133b3a;
 }
